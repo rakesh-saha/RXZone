@@ -74,7 +74,7 @@
     position: relative;
 }
 .output {
-    width: 150px;
+    width: 160px;
     padding: 10px 2px;
     text-align: center;
     direction: none;
@@ -88,12 +88,15 @@
     position: relative;
 }
 
-@media (width<830px){
+@media (width<700px){
     .quadratic-value {
         flex-direction: column;
     }
     .input{
         width: 70px;
+    }
+    .output{
+        width: 260px;
     }
     .text{
         font-size: 15px;
