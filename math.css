@@ -87,7 +87,6 @@
     cursor: pointer;
     position: relative;
 }
-
 @media (width<700px){
     .quadratic-value {
         flex-direction: column;
