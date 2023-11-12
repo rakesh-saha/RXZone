@@ -14,20 +14,22 @@
         <div class="quadratic">
             <h3 class="headings">Quadratic equation solver</h3>
             <div class="quadratic-value">
-                <div class="row">
-                    <input id="a1" class="input" type="number" placeholder="a">
-                    <h3 class="text">X<sup>2</sup>+</h3>
+                <div class="equation">
+                    <div class="row">
+                        <input id="a1" class="input" type="number" placeholder="a">
+                        <h3 class="text">X<sup>2</sup>+</h3>
+                    </div>
+                    <div class="row">
+                        <input id="b1" class="input" type="number" placeholder="b">
+                        <h3 class="text">+X+</h3>
+                    </div>
+                    <div class="row">
+                        <input id="c1" class="input" type="number" placeholder="c">
+                        <h3 class="text">=0</h3>
+                    </div>
                 </div>
                 <div class="row">
-                    <input id="b1" class="input" type="number" placeholder="b">
-                    <h3 class="text">+X+</h3>
-                </div>
-                <div class="row">
-                    <input id="c1" class="input" type="number" placeholder="c">
-                    <h3 class="text">=0</h3>
-                </div>
-                <div class="row">
-                    <button class="input" onclick="quadratic_value()">Get Roots </button>
+                    <button class="output" onclick="quadratic_value()">Get Roots </button>
                     <input id="result1" class="output" disabled placeholder="Answer">
                 </div>
             </div>
