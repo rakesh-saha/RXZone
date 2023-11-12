@@ -33,6 +33,14 @@
     justify-content:space-between;
     background-color: #00080f;
 }
+.equation{
+    width: 100%;
+    margin: 0;
+    padding:10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
 
 .row{
     margin: auto;
@@ -41,12 +49,11 @@
     flex-direction: row;
 }
 .headings {
-    color: #005eff;
+    color: #00aeff;
     margin: 10px 10px;
 }
 .text {
     font-size: auto;
-    padding: auto;
     margin-top: auto;
     color: #00ffe5;
     width: 30px;
@@ -58,7 +65,6 @@
     padding: 10px 2px;
     text-align: center;
     direction: none;
-    margin:2px;
     border-radius: 25px;
     font-weight: bold;
     border: 2px solid #00ffe5;
@@ -85,5 +91,12 @@
 @media (width<730px){
     .quadratic-value {
         flex-direction: column;
+    }
+    .input{
+        width: 70px;
+    }
+    .text{
+        font-size: 15px;
+        width: 10px;
     }
 }
