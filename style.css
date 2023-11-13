@@ -17,7 +17,7 @@
     margin: auto;
     padding:10px 20px;
     display: flex;
-    background-color: rgba(0, 0, 0, 0.725);
+    background-color: rgba(0, 0, 0, 0.6);
     align-items: center;
     justify-content: space-between;
 }
@@ -40,6 +40,9 @@
     margin: 0 10px;
     text-transform: uppercase;
 
+}
+.navbar ul li a:hover{
+    color: #00ffe5;
 }
 
 .navbar ul li::after{
@@ -138,13 +141,15 @@ span{
   
   /* Links inside the dropdown */
   .dropdown-content a {
-    
     display: flex;
     flex-direction: row;
     color: rgba(255, 255, 255, 0.529);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+  }
+  .gray{
+    background-color: rgb(45, 45, 45);
   }
 
   .dropdown-content p a img{
@@ -163,8 +168,8 @@ span{
   }
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropdown {
-    background-color: #3e8e41;
+  .dropdown:hover{
+    color: #00ffe5;
   }
 
 
@@ -255,14 +260,7 @@ span{
 .hamburger.active :nth-child(3){
     transform: rotate(45deg) translate(-6px,-1px);
 }
-  /*.hamburger::before,
-  .hamburger::after,
-  .hamburger input{
-    content: '';
-    width: var(--bar-width);
-    height: var(--bar-height);
-    background-color: var(--foreground);
-  }*/
+
   .hamburger .bar , .hamburger:after, .hamburger:before{
     display: block;
     width: 25px;
