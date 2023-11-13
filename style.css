@@ -131,7 +131,7 @@ span{
   .dropdown-content {
     
     display: none;
-    left: -85px;
+    left: -60px;
     position: absolute;
     background-color:  rgb(0, 0, 0);
     min-width: 170px;
