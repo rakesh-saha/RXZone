@@ -11,7 +11,12 @@ window.onload = function () {
         }
         else if(d<0){
             d=Math.sqrt(-d)/(2*a);
-            document.getElementById("result1").value="("+res.toFixed(4)+" + "+(d).toFixed(4)+" i ) & ( "+res.toFixed(4)+" - "+(d).toFixed(4)+" i)";
+            if(res==0){
+                document.getElementById("result1").value="( "+(d).toFixed(4)+" i ) & ( "+" - "+(d).toFixed(4)+" i )";
+            }
+            else{
+                document.getElementById("result1").value="( "+res.toFixed(4)+" + "+(d).toFixed(4)+" i ) & ( "+res.toFixed(4)+" - "+(d).toFixed(4)+" i )";
+            }
         }else{
             var x = parseFloat(res)+parseFloat((Math.sqrt(d))/(2*a));
             var y = parseFloat(res)-parseFloat((Math.sqrt(d))/(2*a));
