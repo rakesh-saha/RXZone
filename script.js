@@ -1,4 +1,4 @@
-window.onload = function () {
+//window.onload = function () {
     const hamburger = document.querySelector(".hamburger");
     const item = document.querySelector(".item");
 
@@ -33,4 +33,4 @@ window.onload = function () {
 
     document.getElementById('randomText').innerText = texts[Math.floor(Math.random() * texts.length)];
 
-}
+//}
